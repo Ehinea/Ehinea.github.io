@@ -1,0 +1,127 @@
+body {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: sans-serif;
+    transition: 0.4s;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#menu {
+    
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px solid #333;
+}
+
+.modo-oscuro {
+    background-color: #1a1a1a;
+    color: #a37979;
+}
+
+.modo-oscuro button {
+    border-color: #f1f1f1;
+    background-color: #333;
+    color: #a37979;
+}
+
+/*main {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/
+
+footer {
+    position: absolute;
+    top: 160%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 5cm;
+}
+
+header {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 5cm;
+    font-family: Cooper Black;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+nav {
+    width: 20%;
+    height: 5cm;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+img {
+    width: 33%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    
+}
+
+.flex-container {
+  display: flex;
+  /*background-color: #f1f1f1;*/
+  flex-direction: column;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+  height: 1500px;  /* Altura total de la pantalla */
+  flex-wrap: wrap;        
+  align-content: stretch; 
+  column-gap: 500px;
+  width: 100%;
+}
+
+.flex-container section {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #b79b9b;
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 2px solid black;
+    font-family: Cooper;
+}
+
+/*#Sobremi {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#inicio {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}*/

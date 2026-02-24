@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi portafolio</title>
+    
+</head>
+
+<body>
+    
+    <header>
+        <h1 id="Encabezado"> Ehinea Bugarin</h1>
+        <button onclick="cambiarTema()"> CambiarTema</button>
+    </header>
+
+    <nav id="menu">
+        <ul>
+            <li><a href="#inicio"> Inicio</a></li>
+            <li><a href="#Sobremi"> Sobre mi</a></li>
+            <li><a href="#contacto"> Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+       <div class="flex-container">
+        
+        <section id="inicio">
+            
+
+                <h3> Hola, soy estudiante en Ingeniería de Diseño Gráfico Digital</h3>
+                <img src= "C:\Ehinea\Universidad\Sexto Semestre\Programacion de Sitios Dinamicos\Mi portafolio\Avatarzuko.png">
+        </section>
+         
+        <section id="Sobremi">
+                <h3> Me gusta dibujar, aprender nuevas cosas y me gusta el color rojo.</h3>
+                
+        </section>
+        
+        </div>
+    </main>
+
+    <footer id="contacto">
+                <h3> Mis redes sociales son: </h3>
+                <h4> ehinea.bugarin@cetys.edu.mx</h4>
+    </footer>
+
+    <script>
+        function cambiarTema() {
+            let cuerpo = document.body;
+            cuerpo.classList.toggle("modo-oscuro");
+        }
+    </script>
+
+</body>
+</html>
