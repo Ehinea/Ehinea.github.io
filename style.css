@@ -112,6 +112,30 @@ img {
     font-family: Cooper;
 }
 
+@media(max-width: 768px)
+{
+    header{
+        flex-direction: column;
+        gap: 15 px;
+        padding: 20px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    section{
+        width: 90%;
+        padding: 20px;
+    }
+
+    img{
+        width: 150px;
+    }
+
+}
+
 /*#Sobremi {
     position: absolute;
     top: 80%;
