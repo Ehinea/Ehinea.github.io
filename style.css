@@ -91,7 +91,7 @@ img {
   flex-direction: column;
   justify-content: center; /* Horizontal */
   align-items: center;     /* Vertical */
-  height: 1500px;  /* Altura total de la pantalla */
+  height: 2000px;  /* Altura total de la pantalla */
   flex-wrap: wrap;        
   align-content: stretch; 
   column-gap: 500px;
