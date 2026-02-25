@@ -95,7 +95,7 @@ img {
   flex-wrap: wrap;        
   align-content: stretch; 
   column-gap: 500px;
-  width: 100%;
+  width: 200%;
 }
 
 .flex-container section {
