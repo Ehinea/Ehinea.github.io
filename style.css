@@ -43,7 +43,7 @@ button {
 
 footer {
     position: absolute;
-    top: 300%;
+    top: 260%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: blanchedalmond;
