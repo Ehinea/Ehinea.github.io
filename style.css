@@ -41,7 +41,7 @@ button {
     transform: translate(-50%, -50%);
 }*/
 
-footer {
+/*footer {
     position: absolute;
     top: 260%;
     left: 50%;
@@ -49,9 +49,16 @@ footer {
     background-color: blanchedalmond;
     width: 100%;
     height: 5cm;
+}*/
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e2d1d1;
+    border-top: 1px solid #dddddd;
 }
 
-header {
+/*header {
     background-color: blanchedalmond;
     width: 100%;
     height: 5cm;
@@ -59,8 +66,18 @@ header {
     position: absolute;
     top: 10%;
     left: 50%;
-    /*transform: translate(-50%, -50%);*/
-    
+    /*transform: translate(-50%, -50%);
+}*/
+
+header {
+    background-color: #e2d1d1;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #dddddd;
+    top: 100%;
+    left: 50%;
+    width: 100%;
+    height: 5cm;
 }
 
 nav {
@@ -76,13 +93,20 @@ nav li a {
     text-decoration: none;
 }
 
-img {
+/*img {
     width: 33%;
     height: 60%;
     position: absolute;
     top: 20%;
     left: 33%;
     
+}*/
+
+img {
+    width: 330px;
+    position: absolute;
+    top: 25%;
+    left: 34%;
 }
 
 .flex-container {
