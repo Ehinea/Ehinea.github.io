@@ -151,7 +151,7 @@ img {
     font-family: Cooper;
 }
 
-@media(max-width: 768px)
+@media(max-width: 600px)
 {
     header{
         display: flex;
@@ -183,6 +183,7 @@ img {
 
     .Imagen2{
         width: 350px;
+        gap: 5px;
     }
 
 }
