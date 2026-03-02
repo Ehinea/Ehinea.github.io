@@ -174,16 +174,20 @@ img {
     
     section{
         width: 90%;
-        padding: 20px;
+        padding: 5px;
+        top: 100px;
     }
 
     img{
         width: 350px;
+        position: relative;
+        top: 51%;
+        left: 26%;
     }
 
     .Imagen2{
         width: 350px;
-        gap: 5px;
+        
     }
 
 }
