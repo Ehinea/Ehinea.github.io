@@ -108,7 +108,7 @@ nav li a {
     
 }*/
 
-img {
+.Avatar{
     width: 47%;
     position: relative;
     top: 51%;
@@ -184,7 +184,7 @@ img {
         
     }
 
-    img{
+    .Avatar{
         width: 350px;
         position: relative;
         top: 280px;
@@ -211,6 +211,22 @@ img {
         left: -0.5%;
     }
 
+}
+
+@keyframes flotar{
+        0% {
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-15px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+.Avatar {
+    animation: flotar 3s ease-in-out infinite;
 }
 
 #Sobremi h1 {
