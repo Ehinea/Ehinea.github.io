@@ -21,6 +21,14 @@ button {
     cursor: pointer;
     border-radius: 20px;
     border: 2px solid #333;
+    transform: scale(1);
+    /* La magia: cambia 1000 en 0.3 segundos suavemente */
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+        background-color: #00b4d8;
+        transform: scale(1.1); /* Crece un 10% */
 }
 
 .modo-oscuro {
