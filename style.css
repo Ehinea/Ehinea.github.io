@@ -26,9 +26,9 @@ button {
     transition: all 0.3s ease;
 }
 
-.button:hover {
-        background-color: #00b4d8;
-        transform: scale(1.1); /* Crece un 10% */
+button:hover {
+        background-color: #ffb4ea;
+        transform: scale(1.2); /* Crece un 10% */
 }
 
 .modo-oscuro {
@@ -104,7 +104,14 @@ nav li {
 }
 
 nav li a {
+     /* La magia: cambia 1000 en 0.3 segundos suavemente */
+    transition: all 0.3s ease;
     text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    transform: scale(1.2); /* Crece un 10% */
 }
 
 /*img {
